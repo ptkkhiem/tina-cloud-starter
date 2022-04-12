@@ -59,6 +59,11 @@ export default defineSchema({
                   type: "string",
                   options: ["utc", "iso", "local"],
                 },
+                {
+  name: 'hero',
+  type: 'image',
+  label: 'Hero Image',
+ }
               ],
             },
             {
